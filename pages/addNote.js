@@ -56,7 +56,7 @@ const AddNote = () => {
         <br />
         <label>Targeted Number</label>
         <p className="small">
-          No worries! The number won't be showed to public!
+          {"No worries! The number won't be showed to public!"}
         </p>
         <input
           type="text"
