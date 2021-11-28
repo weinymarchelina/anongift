@@ -16,7 +16,6 @@ export default function Home() {
   const getNotes = async () => {
     try {
       const res = await axios.get("/api/notes");
-      console.log(res);
 
       const { notes, user } = res.data;
 
