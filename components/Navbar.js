@@ -14,13 +14,8 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link href="/auth">
-            <a>Auth</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/status">
-            <a>Status</a>
+          <Link href="/addNote">
+            <a>Create</a>
           </Link>
         </li>
       </div>

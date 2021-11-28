@@ -5,8 +5,6 @@ const UserSchema = new mongoose.Schema(
     name: String,
     phone: String,
     sid: String,
-    sendReq: Array,
-    delivery: Array,
   },
   { timestamps: true }
 );
