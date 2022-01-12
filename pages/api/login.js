@@ -23,6 +23,8 @@ export default async (req, res) => {
       });
     })
     .catch((err) => {
+      console.log("error happened");
       console.log(err);
+      console.log(err.response);
     });
 };
