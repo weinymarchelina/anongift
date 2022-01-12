@@ -18,14 +18,19 @@ a {
 
 nav {
   display: flex;
-  background-color: #ffd8e1;
-  color: red;
+  background-color: #cb416b;
+  color: white;
   font-weight: 500;
   justify-content: space-between;
 }
 
 .logo {
   margin-left: calc(1rem + 1vw);
+}
+
+.logo img {
+  width: calc(20% + 1rem);
+  padding: calc(1rem + 0.2vw) 0;
 }
 
 .links {
@@ -43,12 +48,16 @@ nav {
   padding: calc(3.25vw + 1rem);
 }
 
+.body div {
+  margin-top: calc(1.75vw + 1.75rem);
+}
+
 button {
   border: none;
   padding: calc(0.25vw + 0.75rem);
   font-size: calc(0.15vw + 1rem);
   font-weight: bold;
-  background-color: rgb(238, 55, 86);
+  background-color: #cb416b;
   color: white;
   border-radius: calc(0.5vw);
   cursor: pointer;
@@ -56,8 +65,9 @@ button {
 }
 
 button:hover {
-  background-color: rgb(207, 3, 3);
-  border: 5px solid rgb(207, 3, 3);
+  background-color: #cb416b;
+  border: 5px solid #cb416b;
+
   color: white;
   transition: ease 250ms;
 }
@@ -86,7 +96,7 @@ li {
 
 form {
   width: 100%;
-  padding: calc(1vw + 1rem) calc(2rem + 2.5vw);
+  padding: calc(3.25vw + 1rem);
 }
 
 label {
@@ -99,6 +109,7 @@ input {
   height: calc(1.5vw + 1rem);
   font-size: calc(1rem + 0.25vw);
   padding: 1rem 0.25rem;
+  margin-top: calc(0.25vw + 0.5rem);
 }
 
 .small {
@@ -113,16 +124,19 @@ ul {
 }
 
 div li {
-  border: calc(0.25rem + 0.25vw) solid rgb(207, 3, 3);
+  border: calc(0.25rem + 0.25vw) solid #cb416b;
   margin: calc(1rem + 1vw) 0;
   padding: calc(1rem + 1vw);
+  border-radius: 1vw;
 }
 
 textarea {
   width: 100%;
   resize: vertical;
   font-size: 1rem;
-  padding: 1vw;
+  font-family: sans-serif;
+  padding: calc(0.25vw + 0.5rem);
+  margin-top: calc(0.25vw + 0.5rem);
 }
 
 nav li {
@@ -138,7 +152,7 @@ nav li {
 
 .note button:hover {
   border: 2px solid rgb(207, 3, 3);
-  background-color: #eeeeee;
+  background-color: transparent;
   color: rgb(207, 3, 3);
 }
 

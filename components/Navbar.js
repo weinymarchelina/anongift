@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className="logo">
-        <Image src="/AnongiftPict.png" width={75} height={75} />
+        <img src="/icon1.png" alt="logo" />
       </div>
       <div className="links">
         <li>
